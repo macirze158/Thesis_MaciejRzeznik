@@ -1,0 +1,138 @@
+/* Style for form container */
+.form-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.inputs-div{
+    margin-top: 60px;
+    outline: none;
+    border: 2px solid var(--color-primary);
+    border-radius: 40px;
+    background: var(--color-light-variant);
+    box-shadow: 0 0 15px var(--color-primary);
+    width: 44vw;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 520px;
+}
+  
+.form-container label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-container h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.form-container input[type="text"],
+select {
+    width: calc(100% - 12px);
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-container input:focus, select:focus {
+  box-shadow: 0 0 15px var(--color-primary);
+  outline: none;
+}
+
+.form-container button[type="submit"] {
+    margin-top: 20px;
+    width: 25vw;
+    height: 10%;
+    background: var(--color-white);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.form-container button[type="submit"]:hover {
+    background: var(--color-primary);
+    color: var(--color-background);
+    border-color: transparent;
+    transform: scale(1.1);
+}
+
+.roles {
+    margin-top: 60px;
+    outline: none;
+    border: 2px solid var(--color-primary);
+    border-radius: 40px;
+    background: var(--color-light-variant);
+    box-shadow: 0 0 15px var(--color-primary);
+    width: 25vw;
+    padding: 20px;
+  }
+
+  .role-checkbox {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .role-checkbox label {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .role-checkbox input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    transform: scale(1.5);
+  }
+  
+  .settings-div {
+    margin-top: 30px;
+    outline: none;
+    border: 2px solid var(--color-primary);
+    border-radius: 40px;
+    background: var(--color-light-variant);
+    box-shadow: 0 0 15px var(--color-primary);
+    width: 25vw;
+  }
+
+  .settings-checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .settings-checkbox label {
+    margin-right: 10px;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  .settings-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.5);
+  }
+  
+  
+  
+  

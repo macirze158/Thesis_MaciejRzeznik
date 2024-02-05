@@ -1,0 +1,221 @@
+.laboratory-wrapper {
+    margin-top: 150px;
+    width: 95vw;
+    height: auto;
+    border: none;
+    outline: none;
+    align-content: center;
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 15px var(--color-primary);
+}
+
+.add-result-container {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+
+.add-result-container form {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+
+.add-result-container button[type="submit"] {
+    margin-top: 20px;
+    width: 15vw;
+    height: 5vh;
+    background: var(--color-white);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.add-result-container button[type="submit"]:hover {
+    background: var(--color-primary);
+    border-color: transparent;
+    transform: scale(1.1);
+}
+
+.add-result-container input[type="text"] {
+    width: calc(100% - 20px);
+    height: 5vh;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.add-result-container input:focus {
+    box-shadow: 0 0 15px var(--color-primary);
+    outline: none;
+}
+
+.p-dropdown-label {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.p-dropdown-item {
+    height: 5vh;
+    text-align: center;
+}
+
+.p-dropdown-filter {
+    height: 5vh;
+    text-align: center;
+}
+
+.p-dropdown-filter-container {
+    height: 5vh;
+}
+
+.modify-result-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.modify-result-container button {
+    margin-top: 20px;
+    width: 15vw;
+    height: 5vh;
+    background: var(--color-white);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.modify-result-container button:hover {
+    background: var(--color-primary);
+    border-color: transparent;
+    transform: scale(1.1);
+}
+
+.modify-result-container input[type="text"] {
+    width: calc(100% - 20px);
+    height: 5vh;
+    padding: 6px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.modify-result-container input:disabled {
+    background-color: var(--color-white);
+    color: gainsboro;
+    border-color: gainsboro;
+}
+
+.modify-result-container input:focus {
+    box-shadow: 0 0 15px var(--color-primary);
+    outline: none;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons-wrapper button {
+    width: 15vw;
+    height: 5vh;
+    background: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.buttons-wrapper button:hover {
+    background: var(--color-primary);
+    border-color: transparent;
+    transform: scale(1.1);
+}
+
+.buttons-wrapper .edit-button {
+    background-color: rgb(230, 133, 23);
+}
+
+.buttons-wrapper .edit-button:hover {
+    background-color: orange;
+}
+
+.buttons-wrapper .sign-button {
+    background-color: rgb(36, 95, 206);
+}
+
+.buttons-wrapper .sign-button:hover {
+    background-color: rgb(95, 136, 212);
+}
+
+.buttons-wrapper .discard-button {
+    background: rgba(163, 5, 5, 0.8);
+}
+
+.buttons-wrapper .discard-button:hover {
+    background: rgba(163, 5, 5, 0.8);
+}
+
+.diagnosis-container {
+  display: grid;
+  place-items: center;
+  gap: 10px;    
+}
+
+.diagnosis-container textarea {
+  margin-right: 10px;
+  width: 43vw;
+  height: 28vh;
+  resize: none;
+  font-size: 17px;
+}
+
+.diagnosis-container textarea:focus {
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 15px var(--color-primary);
+    outline: none;
+}
+
+.diagnosis-container .img-holder {
+    height: 25vh;
+    width: 43vw;
+    overflow: scroll;
+}
+
+.diagnosis-container img {
+    height: 20vh;
+    width: 43vw;
+    object-fit:scale-down;
+}
+
+.diagnosis-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+

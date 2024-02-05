@@ -1,0 +1,109 @@
+.client-manage-container {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    gap: 20px;
+    min-height: 300px;
+}
+
+.client-manage-container input[type="text"] {
+    width: calc(100% - 20px);
+    height: 5vh;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.client-manage-container input:focus {
+    box-shadow: 0 0 15px var(--color-primary);
+    outline: none;
+}
+
+.client-manage-container h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.client-manage-container label {
+    font-size: 17px;
+}
+
+.client-manage-container .client-button {
+    width: 12vw;
+    margin: 5px;
+    height: 10%;
+    min-height: 5px;
+    background: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.client-manage-container .client-button[type="button"] {
+    background: rgba(163, 5, 5, 0.8);
+}
+
+.client-manage-container .client-button:hover {
+    color: var(--color-background);
+    border-color: transparent;
+    transform: scale(1.1);
+}
+
+.client-manage-container .inputs-div {
+    width: auto;
+    min-height: 480px;
+}
+
+.client-manage-container select {
+    margin-top: 20px;
+}
+
+.client-manage-container form {
+    bottom: 50px;
+    position: relative;
+}
+
+.client-tables {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    grid-gap: 20px;
+}
+
+.order-list-layout {
+    display: grid;
+    grid-template-columns: 3fr 3fr 6fr 1fr;
+    padding: 1rem;
+}
+
+.order-list-field {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.order-list-toolbar {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1400px) {
+    .client-tables {
+      display: none;
+    }
+
+    .client-data {
+        width: 100%;
+    }
+
+    .client-manage-container {
+        display: flex;
+    }
+}

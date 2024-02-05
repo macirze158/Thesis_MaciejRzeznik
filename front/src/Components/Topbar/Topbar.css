@@ -1,0 +1,42 @@
+.nav {
+    background: var(--color-primary);
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    position:absolute;    
+    right: 0rem;
+    top: 0rem;
+    display: flex;
+}   
+
+.nav button {
+    width: auto;
+    height: auto;
+    padding: 0.75rem 1.2rem;
+    background: var(--color-white);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    left: 0rem;
+    margin-left: auto;
+}
+
+.nav button:hover {
+    color: var(--color-background);
+    border-color: transparent;
+    transform: scale(1.1);
+}
+
+.nav .site-name {
+    width: auto;
+    height: auto;
+    font-size: 32px;
+    align-self: center;
+    color: var(--color-white)
+}
+    

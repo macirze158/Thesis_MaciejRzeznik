@@ -1,0 +1,25 @@
+.clients-wrapper {
+    margin-top: 150px;
+    width: 95vw;
+    height: auto;
+    border: none;
+    outline: none;
+    align-content: center;
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 15px var(--color-primary);
+}
+
+.clients-wrapper .settings-button {
+    height: 4vh;
+    min-height: 40px;
+    width: 10vw;
+    min-width: 40px;
+    font-size: 1rem;
+    float: right;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.modify-result-container input:disabled {
+    color: black;
+}

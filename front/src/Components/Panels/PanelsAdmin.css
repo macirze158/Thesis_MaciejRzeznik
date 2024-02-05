@@ -1,0 +1,85 @@
+.admin_wrapper {
+    margin-top: 150px;
+    width: 90vw;
+    height: 75vh;
+    border: none;
+    outline: none;
+    align-content: center;
+}
+
+.bloc-tabs {
+    width: auto;
+    height: 5vh;
+    min-height: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid var(--color-primary);
+    border-start-start-radius: 40px;
+    border-start-end-radius: 40px;
+    background: var(--color-light-variant);
+    box-shadow: 0 0 15px var(--color-primary);
+    align-content: center;
+    align-self: center;
+    display: grid;  
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, calc(25% - 20px));
+}
+
+.tabs {
+    background-color: var(--color-light-variant);
+    border-radius: 40px;
+    max-height: 30px;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.tabs:hover {
+    background-color: var(--color-primary-opacity);
+    cursor: pointer;
+}
+
+.active-tab:hover {
+    background-color: var(--color-primary);
+}
+
+.active-tab {
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.content-tabs {
+    width: 100%;
+    height: 75vh;
+    min-height: 700px;
+    border: none;
+    outline: none;
+    border: 2px solid var(--color-primary);
+    border-end-end-radius: 40px;
+    border-end-start-radius: 40px;
+    background: var(--color-light-variant);
+    box-shadow: 0 0 15px var(--color-primary);
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.content-tab-datatable {
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 15px var(--color-primary);
+}
+
+.content {
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+.active-content-datatable {
+    width: 100%;
+    display: block;
+}
